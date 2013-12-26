@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AAD9F2B186BEE820058C3D3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAD9F2A186BEE820058C3D3 /* QuartzCore.framework */; };
+		6AAD9F2D186BF1AA0058C3D3 /* Kumamotojo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AAD9F2C186BF1AA0058C3D3 /* Kumamotojo.jpg */; };
+		6AAD9F2F186BF9580058C3D3 /* tono_right.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6AAD9F2E186BF9580058C3D3 /* tono_right.gif */; };
+		6AAD9F33186C07590058C3D3 /* lance .png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAD9F32186C07590058C3D3 /* lance .png */; };
 		6ADC299618596B76003AB3F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADC299518596B76003AB3F2 /* UIKit.framework */; };
 		6ADC299818596B76003AB3F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADC299718596B76003AB3F2 /* Foundation.framework */; };
 		6ADC299A18596B76003AB3F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADC299918596B76003AB3F2 /* CoreGraphics.framework */; };
@@ -23,6 +27,8 @@
 		6ADC29BC18596B77003AB3F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADC299718596B76003AB3F2 /* Foundation.framework */; };
 		6ADC29C418596B77003AB3F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ADC29C218596B77003AB3F2 /* InfoPlist.strings */; };
 		6ADC29C718596B77003AB3F2 /* shootingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADC29C618596B77003AB3F2 /* shootingTests.m */; };
+		6ADC29D218597108003AB3F2 /* character.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADC29D118597108003AB3F2 /* character.m */; };
+		6ADC29D418597F93003AB3F2 /* tono.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6ADC29D318597F93003AB3F2 /* tono.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6AAD9F2A186BEE820058C3D3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6AAD9F2C186BF1AA0058C3D3 /* Kumamotojo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kumamotojo.jpg; sourceTree = "<group>"; };
+		6AAD9F2E186BF9580058C3D3 /* tono_right.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tono_right.gif; sourceTree = "<group>"; };
+		6AAD9F32186C07590058C3D3 /* lance .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lance .png"; sourceTree = "<group>"; };
 		6ADC299218596B76003AB3F2 /* shooting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shooting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ADC299518596B76003AB3F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6ADC299718596B76003AB3F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +68,9 @@
 		6ADC29C318596B77003AB3F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6ADC29C518596B77003AB3F2 /* shootingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shootingTests.h; sourceTree = "<group>"; };
 		6ADC29C618596B77003AB3F2 /* shootingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shootingTests.m; sourceTree = "<group>"; };
+		6ADC29D018597108003AB3F2 /* character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = character.h; path = ../character.h; sourceTree = "<group>"; };
+		6ADC29D118597108003AB3F2 /* character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = character.m; path = ../character.m; sourceTree = "<group>"; };
+		6ADC29D318597F93003AB3F2 /* tono.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tono.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AAD9F2B186BEE820058C3D3 /* QuartzCore.framework in Frameworks */,
 				6ADC299618596B76003AB3F2 /* UIKit.framework in Frameworks */,
 				6ADC299818596B76003AB3F2 /* Foundation.framework in Frameworks */,
 				6ADC299A18596B76003AB3F2 /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +101,7 @@
 		6ADC298918596B76003AB3F2 = {
 			isa = PBXGroup;
 			children = (
+				6AAD9F2A186BEE820058C3D3 /* QuartzCore.framework */,
 				6ADC299B18596B76003AB3F2 /* shooting */,
 				6ADC29BF18596B77003AB3F2 /* shootingTests */,
 				6ADC299418596B76003AB3F2 /* Frameworks */,
@@ -122,6 +137,12 @@
 				6ADC29AD18596B77003AB3F2 /* MainStoryboard.storyboard */,
 				6ADC29B018596B77003AB3F2 /* ViewController.h */,
 				6ADC29B118596B77003AB3F2 /* ViewController.m */,
+				6ADC29D018597108003AB3F2 /* character.h */,
+				6ADC29D118597108003AB3F2 /* character.m */,
+				6ADC29D318597F93003AB3F2 /* tono.gif */,
+				6AAD9F2E186BF9580058C3D3 /* tono_right.gif */,
+				6AAD9F2C186BF1AA0058C3D3 /* Kumamotojo.jpg */,
+				6AAD9F32186C07590058C3D3 /* lance .png */,
 				6ADC299C18596B76003AB3F2 /* Supporting Files */,
 			);
 			path = shooting;
@@ -236,6 +257,10 @@
 				6ADC29AA18596B77003AB3F2 /* Default@2x.png in Resources */,
 				6ADC29AC18596B77003AB3F2 /* Default-568h@2x.png in Resources */,
 				6ADC29AF18596B77003AB3F2 /* MainStoryboard.storyboard in Resources */,
+				6ADC29D418597F93003AB3F2 /* tono.gif in Resources */,
+				6AAD9F2D186BF1AA0058C3D3 /* Kumamotojo.jpg in Resources */,
+				6AAD9F2F186BF9580058C3D3 /* tono_right.gif in Resources */,
+				6AAD9F33186C07590058C3D3 /* lance .png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +298,7 @@
 				6ADC29A218596B76003AB3F2 /* main.m in Sources */,
 				6ADC29A618596B77003AB3F2 /* AppDelegate.m in Sources */,
 				6ADC29B218596B77003AB3F2 /* ViewController.m in Sources */,
+				6ADC29D218597108003AB3F2 /* character.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +479,7 @@
 				6ADC29CC18596B77003AB3F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ADC29CD18596B77003AB3F2 /* Build configuration list for PBXNativeTarget "shootingTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +488,7 @@
 				6ADC29CF18596B77003AB3F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
